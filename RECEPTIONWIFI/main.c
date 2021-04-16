@@ -25,9 +25,7 @@ const int VITESSE_MAX_ROUES_MODE_1 = 255;
 const int VITESSE_MAX_ROTATION_MODE_1 = 100;
 const int DIFFERENTIEL_MODE_1 = 25;
 
-
 const int VITESSE_INERTIE = 100;
-
 
 const int VALEUR_SERVO_ATTENTE = 1500;
 const int VALEUR_SERVO_ARME = 2000;
@@ -150,7 +148,7 @@ int main(void)
 			//lcd_write_string(str_test);
 			
 			//********************************************
-			// Gestion de la machine d'état selon le mode
+			// Gestion de la machine d'ï¿½tat selon le mode
 			//********************************************
 			if (valeur_sw1 == 0){
 				state = MODE_SW1;
